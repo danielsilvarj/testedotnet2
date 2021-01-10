@@ -7,5 +7,6 @@ namespace ControleHoras.Dominio.Interfaces.Servicos
 {
     public interface IHoraTrabalhadaServicoDominio: IBaseServicoDominio<HoraTrabalhada>
     {
+
     }
 }
