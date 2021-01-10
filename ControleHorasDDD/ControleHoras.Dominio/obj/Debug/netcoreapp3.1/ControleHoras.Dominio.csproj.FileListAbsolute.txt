@@ -2,3 +2,8 @@ C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\Cont
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.AssemblyInfoInputs.cache
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.AssemblyInfo.cs
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.deps.json
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.pdb

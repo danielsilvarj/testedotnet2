@@ -1,0 +1,12 @@
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.deps.json
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.csprojAssemblyReference.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.AssemblyInfoInputs.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.AssemblyInfo.cs
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.csproj.CoreCompileInputs.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.csproj.CopyComplete
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio.Servicos\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.Servicos.pdb
