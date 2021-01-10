@@ -1,4 +1,5 @@
 ﻿using ControleHoras.Dominio.Enum;
+using System.Collections.Generic;
 
 namespace ControleHoras.Dominio.Entidade
 {
@@ -7,5 +8,6 @@ namespace ControleHoras.Dominio.Entidade
         public string Nome { get; set; }
         public string CPF { get; set; }
         public TipoUsuario TipoUsuario { get; set; }
+        public ICollection<Projeto> Projetos{ get; set; }
     }
 }

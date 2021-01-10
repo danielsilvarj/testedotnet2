@@ -1,0 +1,4 @@
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.csprojAssemblyReference.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.AssemblyInfoInputs.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.AssemblyInfo.cs
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.Dominio\obj\Debug\netcoreapp3.1\ControleHoras.Dominio.csproj.CoreCompileInputs.cache
