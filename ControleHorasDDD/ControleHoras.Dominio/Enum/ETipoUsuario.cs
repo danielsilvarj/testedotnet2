@@ -4,9 +4,10 @@ using System.Text;
 
 namespace ControleHoras.Dominio.Enum
 {
-    public enum TipoUsuario
+    public enum ETipoUsuario
     {
         Administrador,
-        Desenvolvedor
+        Desenvolvedor,
+        Gerente
     }
 }

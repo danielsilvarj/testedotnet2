@@ -10,7 +10,7 @@ namespace ControleHoras.Dominio.Entidade
         public DateTime DataInicio { get; set; }
         public DateTime DataFim { get; set; }
 
-        public ICollection<Usuario> Equipe { get; set; }
+        public ICollection<UsuarioProjeto> UsuarioProjeto { get; set; }
 
         public bool EmAndamento()
         {

@@ -1,0 +1,15 @@
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.deps.json
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.csprojAssemblyReference.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.AssemblyInfoInputs.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.AssemblyInfo.cs
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.csproj.CopyComplete
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.runtimeconfig.json
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.runtimeconfig.dev.json
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.genruntimeconfig.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Persistencia\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.pdb

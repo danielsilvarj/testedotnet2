@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ControleHoras.Dominio.Entidade
 {
-    public class EquipeProjeto : BaseEntidade
+    public class UsuarioProjeto : BaseEntidade
     {
         public int IdUsuario { get; set; }
         public int IdProjeto { get; set; }

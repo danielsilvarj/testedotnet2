@@ -1,5 +1,4 @@
 ﻿using ControleHoras.Dominio.Entidade;
-using ControleHoras.Dominio.Enum;
 using System;
 using System.Collections.Generic;
 

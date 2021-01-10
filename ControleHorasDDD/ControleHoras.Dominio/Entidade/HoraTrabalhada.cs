@@ -9,7 +9,7 @@ namespace ControleHoras.Dominio.Entidade
         public DateTime DataInicio { get; set; }
         public DateTime DataFim { get; set; }
         public Usuario Usuario { get; set; }
-        public ICollection<Projeto> Projetos { get; set; }
+        public Projeto Projetos { get; set; }
 
 
     }
