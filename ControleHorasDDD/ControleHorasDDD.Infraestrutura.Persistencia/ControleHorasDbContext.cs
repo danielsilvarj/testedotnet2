@@ -9,6 +9,12 @@ namespace ControleHorasDDD.Infraestrutura.Persistencia
 {
     public class ControleHorasDbContext : DbContext
     {
+
+        public ControleHorasDbContext()
+        {
+
+        }
+        
         public ControleHorasDbContext(DbContextOptions<ControleHorasDbContext> options)
             :base(options)
         {

@@ -4,13 +4,14 @@ using System.Text;
 
 namespace ControleHoras.Dominio.Entidade
 {
-    public class UsuarioProjeto : BaseEntidade
+    public class UsuarioProjeto
     {
+        //public int IdUsuarioProjeto { get; set; }
         public int IdUsuario { get; set; }
         public int IdProjeto { get; set; }
 
-        public ICollection<Usuario> Usuarios { get; set; }
-        public ICollection<Projeto> Projetos { get; set; }
+        public virtual Usuario Usuarios { get; set; }
+        public virtual Projeto Projetos { get; set; }
 
     }
 }
