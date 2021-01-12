@@ -71,6 +71,13 @@ C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\Cont
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Transversal.IoC.dll
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Transversal.IoC.pdb
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\ControleHOrasDDD.Aplicacao.DTO.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\ControleHOrasDDD.Aplicacao.DTO.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\obj\Debug\netcoreapp3.1\ControleHoras.API.csproj.CoreCompileInputs.cache
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\obj\Debug\netcoreapp3.1\ControleHoras.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHoras.API\obj\Debug\netcoreapp3.1\ControleHoras.API.MvcApplicationPartsAssemblyInfo.cache

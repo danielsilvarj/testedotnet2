@@ -17,6 +17,8 @@ using ControleHorasDDD.Infraestrutura.Persistencia.Repositorio;
 using Autofac;
 using ControleHorasDDD.Infraestrutura.Transversal.IoC;
 using Autofac.Extensions.DependencyInjection;
+using ControleHorasDDD.Infraestrutura.Persistencia;
+using Microsoft.EntityFrameworkCore;
 
 namespace ControleHoras.API
 {
@@ -35,17 +37,19 @@ namespace ControleHoras.API
         public void ConfigureServices(IServiceCollection services)
         {
 
-            //services.AddSingleton<IProjetoServicoDominio, ProjetoServicoDominio>();
-            //services.AddSingleton<IProjetoRepositorio, ProjetoRepositorio>();
+            services.AddDbContext<ControleHorasDbContext>(o => o.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;DataBase=ControleHoras;Trusted_Connection=True"));
+
+            services.AddTransient<IProjetoServicoDominio, ProjetoServicoDominio>();
+            services.AddTransient<IProjetoRepositorio, ProjetoRepositorio>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSwaggerGen();
         }
 
-        public void ConfigureContainer(ContainerBuilder builder)
+        /*public void ConfigureContainer(ContainerBuilder builder)
         {
             builder.RegisterModule(new IoCModulo());
-        }
+        }*/
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -78,7 +82,7 @@ namespace ControleHoras.API
                 endpoints.MapControllers();
             });
 
-            this.AutofacContainer = app.ApplicationServices.GetAutofacRoot();
+            //this.AutofacContainer = app.ApplicationServices.GetAutofacRoot();
         }
     }
 }

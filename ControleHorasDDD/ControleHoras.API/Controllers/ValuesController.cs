@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ControleHoras.Dominio.Entidade;
 using ControleHoras.Dominio.Interfaces.Servicos;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.Swagger.Annotations;
 
 namespace ControleHoras.API.Controllers
 {
@@ -19,10 +21,15 @@ namespace ControleHoras.API.Controllers
             _service = service;
         }
 
+
+
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+
+            var ss = _service.Listar();
             return new string[] { "value1", "value2" };
         }
 

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleHoras.Dominio\ControleHoras.Dominio.csproj" />
+    <ProjectReference Include="..\ControleHOrasDDD.Aplicacao.DTO\ControleHOrasDDD.Aplicacao.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

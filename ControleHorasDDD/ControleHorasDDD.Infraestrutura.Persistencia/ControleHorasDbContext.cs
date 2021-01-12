@@ -32,7 +32,8 @@ namespace ControleHorasDDD.Infraestrutura.Persistencia
             //optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ControleHoras;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;DataBase=ControleHoras;Trusted_Connection=True");
         }
-
+        
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UsuarioConfiguracao());
@@ -90,5 +91,8 @@ namespace ControleHorasDDD.Infraestrutura.Persistencia
             
             return base.SaveChanges();
         }
+    
+    
+    
     }
 }

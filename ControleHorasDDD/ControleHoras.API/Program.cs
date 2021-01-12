@@ -20,7 +20,7 @@ namespace ControleHoras.API
             // The UseServiceProviderFactory call attaches the
             // Autofac provider to the generic hosting mechanism.
             var host = Host.CreateDefaultBuilder(args)
-                .UseServiceProviderFactory(new AutofacServiceProviderFactory())
+                //.UseServiceProviderFactory(new AutofacServiceProviderFactory())
                 .ConfigureWebHostDefaults(webHostBuilder =>
                 {
                     webHostBuilder

@@ -2,95 +2,65 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ControleHoras.Dominio.Entidade;
+using ControleHoras.Dominio.Interfaces.Servicos;
 using ControleHorasDDD.Aplicacao.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.Swagger.Annotations;
 
 namespace ControleHoras.API.Controllers
 {
-    public class ProjetoController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProjetoController : ControllerBase
     {
 
-        private readonly IProjetoServicoAplicacao _projetoServicoAplicacao;
 
-        public ProjetoController(IProjetoServicoAplicacao projetoServicoAplicacao)
+        IProjetoServicoDominio _service;
+
+        public ProjetoController(IProjetoServicoDominio service)
         {
-            _projetoServicoAplicacao = projetoServicoAplicacao;
+            _service = service;
         }
 
-        // GET: ProjetoController
-        public ActionResult Index()
+      
+
+       
+
+
+        [HttpGet]
+        [Route("/Lista")]
+        [SwaggerOperation("")]
+        public RetornoApi Lista()
         {
-            return View();
+
+            var item = _service.Listar();
+
+            RetornoApi retornoApi = new RetornoApi
+            {
+                resultado = (item != null),
+                valor = (item != null) ? item : null
+
+            };
+            return retornoApi;
         }
 
-        // GET: ProjetoController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: ProjetoController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: ProjetoController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        [Route("/Salvar")]
+        [SwaggerOperation("")]
+        public RetornoApi Salvar(Projeto objeto)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: ProjetoController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
+            _service.Adicionar(objeto);
 
-        // POST: ProjetoController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
+            RetornoApi retornoApi = new RetornoApi
             {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+                resultado = true,
+                valor = "Inserido"
 
-        // GET: ProjetoController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ProjetoController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            };
+            return retornoApi;
         }
     }
 }

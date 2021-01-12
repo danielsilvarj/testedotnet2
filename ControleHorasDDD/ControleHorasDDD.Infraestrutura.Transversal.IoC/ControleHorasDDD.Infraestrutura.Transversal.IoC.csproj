@@ -12,6 +12,7 @@
     <ProjectReference Include="..\ControleHoras.Dominio.Servicos\ControleHoras.Dominio.Servicos.csproj" />
     <ProjectReference Include="..\ControleHorasDDD.Aplicacao\ControleHorasDDD.Aplicacao.csproj" />
     <ProjectReference Include="..\ControleHorasDDD.Infraestrutura.Persistencia\ControleHorasDDD.Infraestrutura.Persistencia.csproj" />
+    <ProjectReference Include="..\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.csproj" />
   </ItemGroup>
 
 </Project>

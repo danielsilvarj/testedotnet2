@@ -16,3 +16,7 @@ C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\Cont
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Transversal.IoC\obj\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Transversal.IoC.pdb
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Transversal.IoC\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.dll
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Transversal.IoC\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Transversal.IoC\bin\Debug\netcoreapp3.1\ControleHOrasDDD.Aplicacao.DTO.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Transversal.IoC\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Transversal.IoC\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.Infraestrutura.Transversal.IoC\bin\Debug\netcoreapp3.1\ControleHOrasDDD.Aplicacao.DTO.pdb

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/1.0.0": {
+        "dependencies": {
+          "ControleHOrasDDD.Aplicacao.DTO": "1.0.0",
+          "ControleHoras.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.dll": {}
+        }
+      },
+      "ControleHoras.Dominio/1.0.0": {
+        "runtime": {
+          "ControleHoras.Dominio.dll": {}
+        }
+      },
+      "ControleHOrasDDD.Aplicacao.DTO/1.0.0": {
+        "dependencies": {
+          "ControleHoras.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "ControleHOrasDDD.Aplicacao.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControleHoras.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControleHOrasDDD.Aplicacao.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

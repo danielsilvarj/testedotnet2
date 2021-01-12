@@ -11,7 +11,8 @@
           "Autofac": "5.2.0",
           "ControleHoras.Dominio.Servicos": "1.0.0",
           "ControleHorasDDD.Aplicacao": "1.0.0",
-          "ControleHorasDDD.Infraestrutura.Persistencia": "1.0.0"
+          "ControleHorasDDD.Infraestrutura.Persistencia": "1.0.0",
+          "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper": "1.0.0"
         },
         "runtime": {
           "ControleHorasDDD.Infraestrutura.Transversal.IoC.dll": {}
@@ -1046,6 +1047,14 @@
           "ControleHorasDDD.Aplicacao.dll": {}
         }
       },
+      "ControleHOrasDDD.Aplicacao.DTO/1.0.0": {
+        "dependencies": {
+          "ControleHoras.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "ControleHOrasDDD.Aplicacao.DTO.dll": {}
+        }
+      },
       "ControleHorasDDD.Infraestrutura.Persistencia/1.0.0": {
         "dependencies": {
           "ControleHoras.Dominio": "1.0.0",
@@ -1054,6 +1063,15 @@
         },
         "runtime": {
           "ControleHorasDDD.Infraestrutura.Persistencia.dll": {}
+        }
+      },
+      "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/1.0.0": {
+        "dependencies": {
+          "ControleHOrasDDD.Aplicacao.DTO": "1.0.0",
+          "ControleHoras.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.dll": {}
         }
       }
     }
@@ -1772,7 +1790,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "ControleHOrasDDD.Aplicacao.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "ControleHorasDDD.Infraestrutura.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1513,6 +1513,19 @@
           "bin/placeholder/ControleHorasDDD.Aplicacao.dll": {}
         }
       },
+      "ControleHOrasDDD.Aplicacao.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ControleHoras.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControleHOrasDDD.Aplicacao.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControleHOrasDDD.Aplicacao.DTO.dll": {}
+        }
+      },
       "ControleHorasDDD.Infraestrutura.Persistencia/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1526,6 +1539,20 @@
         },
         "runtime": {
           "bin/placeholder/ControleHorasDDD.Infraestrutura.Persistencia.dll": {}
+        }
+      },
+      "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ControleHOrasDDD.Aplicacao.DTO": "1.0.0",
+          "ControleHoras.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.dll": {}
         }
       }
     }
@@ -5737,10 +5764,20 @@
       "path": "../ControleHorasDDD.Aplicacao/ControleHorasDDD.Aplicacao.csproj",
       "msbuildProject": "../ControleHorasDDD.Aplicacao/ControleHorasDDD.Aplicacao.csproj"
     },
+    "ControleHOrasDDD.Aplicacao.DTO/1.0.0": {
+      "type": "project",
+      "path": "../ControleHOrasDDD.Aplicacao.DTO/ControleHOrasDDD.Aplicacao.DTO.csproj",
+      "msbuildProject": "../ControleHOrasDDD.Aplicacao.DTO/ControleHOrasDDD.Aplicacao.DTO.csproj"
+    },
     "ControleHorasDDD.Infraestrutura.Persistencia/1.0.0": {
       "type": "project",
       "path": "../ControleHorasDDD.Infraestrutura.Persistencia/ControleHorasDDD.Infraestrutura.Persistencia.csproj",
       "msbuildProject": "../ControleHorasDDD.Infraestrutura.Persistencia/ControleHorasDDD.Infraestrutura.Persistencia.csproj"
+    },
+    "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/1.0.0": {
+      "type": "project",
+      "path": "../ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.csproj",
+      "msbuildProject": "../ControleHorasDDD.Infraestrutura.Transversao.AutoMapper/ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5748,7 +5785,8 @@
       "AutoFac >= 5.2.0",
       "ControleHoras.Dominio.Servicos >= 1.0.0",
       "ControleHorasDDD.Aplicacao >= 1.0.0",
-      "ControleHorasDDD.Infraestrutura.Persistencia >= 1.0.0"
+      "ControleHorasDDD.Infraestrutura.Persistencia >= 1.0.0",
+      "ControleHorasDDD.Infraestrutura.Transversao.AutoMapper >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5792,6 +5830,9 @@
             },
             "C:\\Users\\1511 MXTI\\source\\repos\\danielsilvarj\\testedotnet2\\ControleHorasDDD\\ControleHorasDDD.Infraestrutura.Persistencia\\ControleHorasDDD.Infraestrutura.Persistencia.csproj": {
               "projectPath": "C:\\Users\\1511 MXTI\\source\\repos\\danielsilvarj\\testedotnet2\\ControleHorasDDD\\ControleHorasDDD.Infraestrutura.Persistencia\\ControleHorasDDD.Infraestrutura.Persistencia.csproj"
+            },
+            "C:\\Users\\1511 MXTI\\source\\repos\\danielsilvarj\\testedotnet2\\ControleHorasDDD\\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper\\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.csproj": {
+              "projectPath": "C:\\Users\\1511 MXTI\\source\\repos\\danielsilvarj\\testedotnet2\\ControleHorasDDD\\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper\\ControleHorasDDD.Infraestrutura.Transversao.AutoMapper.csproj"
             }
           }
         }

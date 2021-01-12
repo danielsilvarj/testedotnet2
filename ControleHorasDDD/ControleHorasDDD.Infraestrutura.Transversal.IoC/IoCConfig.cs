@@ -5,6 +5,7 @@ using ControleHoras.Dominio.Servicos;
 using ControleHorasDDD.Aplicacao.Interfaces;
 using ControleHorasDDD.Aplicacao.Servicos;
 using ControleHorasDDD.Infraestrutura.Persistencia.Repositorio;
+using ControleHorasDDD.Infraestrutura.Transversao.AutoMapper;
 
 namespace ControleHorasDDD.Infraestrutura.Transversal.IoC
 {
@@ -25,6 +26,9 @@ namespace ControleHorasDDD.Infraestrutura.Transversal.IoC
             builder.RegisterType<ProjetoRepositorio>().As<IProjetoRepositorio>();
             builder.RegisterType<UsuarioRepositorio>().As<IUsuarioRepositorio>();
             builder.RegisterType<HoraTrabalhadaRepositorio>().As<IHorasTrabalhadaRepositorio>();
+
+            builder.RegisterType<MapperUsuario>().As<IMapperUsuario>();
+            builder.RegisterType<MapperProjeto>().As<IMapperProjeto>();
 
         }
     }
