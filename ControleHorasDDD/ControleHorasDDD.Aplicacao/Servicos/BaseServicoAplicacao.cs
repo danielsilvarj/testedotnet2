@@ -17,32 +17,32 @@ namespace ControleHorasDDD.Aplicacao.Servicos
 
         public void Adicionar(T obj)
         {
-            throw new NotImplementedException();
+            _servicoDominio.Adicionar(obj);
         }
 
         public void Atualizar(T obj)
         {
-            throw new NotImplementedException();
+            _servicoDominio.Atualizar(obj);
         }
 
         public T DetalharId(int id)
         {
-            throw new NotImplementedException();
+            return _servicoDominio.DetalharId(id);
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _servicoDominio.Dispose();
         }
 
         public void Excluir(T obj)
         {
-            throw new NotImplementedException();
+            _servicoDominio.Excluir(obj);
         }
 
         public IEnumerable<T> Listar()
         {
-            throw new NotImplementedException();
+            return _servicoDominio.Listar();
         }
     }
 }

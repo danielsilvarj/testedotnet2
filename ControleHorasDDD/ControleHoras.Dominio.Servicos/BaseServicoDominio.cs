@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace ControleHoras.Dominio.Servicos
 {
-    public abstract class BaseServicoDominio<T> : IDisposable, IBaseServicoDominio<T> where T : class
+    public class BaseServicoDominio<T> : IDisposable, IBaseServicoDominio<T> where T : class
     {
 
         public readonly IBaseRepositorio<T> _repositorio;

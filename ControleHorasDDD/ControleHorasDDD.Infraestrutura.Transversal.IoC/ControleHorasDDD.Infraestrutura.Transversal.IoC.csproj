@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFac" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleHoras.Dominio.Servicos\ControleHoras.Dominio.Servicos.csproj" />
+    <ProjectReference Include="..\ControleHorasDDD.Aplicacao\ControleHorasDDD.Aplicacao.csproj" />
+    <ProjectReference Include="..\ControleHorasDDD.Infraestrutura.Persistencia\ControleHorasDDD.Infraestrutura.Persistencia.csproj" />
+  </ItemGroup>
+
+</Project>

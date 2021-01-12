@@ -52,8 +52,6 @@ C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\Cont
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\ControleHorasDDD.MVC.Views.dll
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\ControleHorasDDD.MVC.Views.pdb
-C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\obj\Debug\netcoreapp3.1\ControleHorasDDD.MVC.csproj.CoreCompileInputs.cache
-C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\obj\Debug\netcoreapp3.1\ControleHorasDDD.MVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\obj\Debug\netcoreapp3.1\ControleHorasDDD.MVC.Views.pdb
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -82,3 +80,7 @@ C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\Cont
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\ControleHorasDDD.Aplicacao.pdb
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\ControleHorasDDD.Infraestrutura.Persistencia.pdb
 C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\ControleHoras.Dominio.pdb
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\obj\Debug\netcoreapp3.1\ControleHorasDDD.MVC.csproj.CoreCompileInputs.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\obj\Debug\netcoreapp3.1\ControleHorasDDD.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\1511 MXTI\source\repos\danielsilvarj\testedotnet2\ControleHorasDDD\ControleHorasDDD.MVC\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll

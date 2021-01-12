@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BhqErHep6wn26EFqOLlgNHHrY6g2IpbK75pv7rcBOaN9hP99Hsbpowf7/v2nOQKID6rlTB22pqhpyRTkMeI6sQ==",
+  "dgSpecHash": "PqDM0hzIbAi6uHYSZnb7KK0YCz8KFsoN0GyH8vFSlEr0u28bYfdXgth7VzqdAgM3yKKqj8SfxozW2dOupbhLUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\1511 MXTI\\source\\repos\\danielsilvarj\\testedotnet2\\ControleHorasDDD\\ControleHorasDDD.MVC\\ControleHorasDDD.MVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\1511 MXTI\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\1511 MXTI\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\1511 MXTI\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\1511 MXTI\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\1511 MXTI\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

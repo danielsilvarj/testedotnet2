@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -14,7 +16,11 @@ namespace ControleHorasDDD.MVC
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args)
+                //.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+                //.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+                .Build()
+                .Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
